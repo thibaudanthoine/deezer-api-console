@@ -1,0 +1,71 @@
+{
+    "operations": {
+        "album": {
+            "description": "Returns album information.",
+            "httpMethod": "GET",
+            "parameters": {
+                "album_id": {
+                    "description": "Identity of the album.",
+                    "location": "uri",
+                    "required": true
+                }
+            },
+            "uri": "album/{album_id}"
+        },
+    	"search": {
+            "description": "Search for track.",
+            "httpMethod": "GET",
+            "parameters": {
+                "q": {
+                    "description": "Query parameter.",
+                    "location": "query"
+                }
+            },
+            "uri": "search"
+        },
+    	"search/album": {
+            "description": "Search for album.",
+            "httpMethod": "GET",
+            "parameters": {
+                "q": {
+                    "description": "Query parameter.",
+                    "location": "query"
+                }
+            },
+            "uri": "search/album"
+        },
+    	"search/artist": {
+            "description": "Search for artist.",
+            "httpMethod": "GET",
+            "parameters": {
+                "q": {
+                    "description": "Query parameter.",
+                    "location": "query"
+                }
+            },
+            "uri": "search/artist"
+        },
+    	"search/autocomplete": {
+            "description": "Search artist, album, track suggestions based on autocomplete search.",
+            "httpMethod": "GET",
+            "parameters": {
+                "q": {
+                    "description": "Query parameter.",
+                    "location": "query"
+                }
+            },
+            "uri": "search/autocomplete"
+        },
+    	"search/user": {
+            "description": "Search for user.",
+            "httpMethod": "GET",
+            "parameters": {
+                "q": {
+                    "description": "Query parameter.",
+                    "location": "query"
+                }
+            },
+            "uri": "search/user"
+        }
+    }
+}
