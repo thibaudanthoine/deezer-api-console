@@ -1,0 +1,13 @@
+{
+	"require": {
+        "php": ">=5.3.3",
+        "symfony/console": "2.*",
+		"guzzle/guzzle": "~3.7"
+    },
+    
+    "autoload": {
+        "psr-0": {
+            "Thibaud": "src/"
+        }
+    }
+}
