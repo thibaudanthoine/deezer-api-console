@@ -5,8 +5,7 @@ Provides a simple Symfony2 command to search artist, album, track suggestions us
 
 @todo Implement others API objects...
 
-Using Deezer API Console
-------------------------
+### Using Deezer API Console
 
 .. code-block:: html+jinja
 
