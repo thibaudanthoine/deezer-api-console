@@ -1,11 +1,11 @@
 Deezer API Console
 ==================
 
-Provides a simple Symfony2 command to search artist, album, track suggestions using the Deezer API.
+A simple Symfony2 command for searching artist, album and track suggestions provided by Deezer API.
 
-@todo Implement others API objects...
+@todo Implement any API objects...
 
-Using Deezer API Console
+Deezer API Console usage
 ------------------------
 
 .. code-block:: html+jinja
